@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:ital,wght@0,300;1,300&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Source+Sans+Pro:wght@200&display=swap');
+body {
+    margin: 0; padding: 0; box-sizing: border-box; 
+    background-color: #F5F5F5;
+    font-family: 'Poppins';}
+
+header {
+    text-align: center; 
+    padding: 5px; 
+    width: 100%;
+ }
+
+.header { 
+    width: 100%;  padding: auto; }
+.header a {color:#FFB9DA; font-size: 16px; margin: 5px;}
+
+/*Estilos Inicio*/
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cajatitulo{
+    background-color: #613162;
+    color:rgb(255, 255, 255);
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.contenedor>div {
+    width: 50%;
+    text-align: center;
+}
+
+.caja1-imagen>img{
+    width: 50%;
+    border-radius: 5px;
+}
+
+.caja2>p{
+    text-align: left;
+}
+
+
+/*Estilos Carrera*/
+#parte2{
+    background-color: #613162;
+    padding: 10px;
+    margin: 10px;
+}
+
+#parte2 h1{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.contenedor3 {
+    width: 95%;
+    margin: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor3 h2{
+    color:#F5F5F5;
+}
+.contenedor3 div { 
+    margin: 70px; 
+    text-align: center; 
+}
+
+.contenedor3 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contenedor3 img:hover { 
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    transition: all 0.3s; }
+
+
+/*Estilos Otros datos*/
+
+#parte3 h1{
+    color:#613162;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+#parte3 p{
+    text-align: center;
+}
+
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor2 div {
+    width: 50%;
+    text-align: center;
+}
+.contenedor2 img{
+    width: 50%;
+    border: solid 2px #613162;
+    border-radius: 5px;
+}
+.contenedor2 p{
+    font-size: 12px;
+}
+
+
+
+/*Estilos Footer*/
+.footer{
+    background-color: #613162;
+    padding: 10px;
+}
+.contenedorfooter {
+    width: 50%;
+}
+
+.contenedorfooter a{
+    color:#F5F5F5;
+    text-align: left;
+}
+
+.telefono{
+    color:#F5F5F5;
+}
